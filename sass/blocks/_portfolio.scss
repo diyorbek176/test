@@ -1,0 +1,74 @@
+.portfolio{
+    width: 100%;
+    height: 844px;
+    padding-top: 100px;
+    background: linear-gradient(101.56deg, #2C2C2C 1.56%, #1C1C1C 95.55%);
+
+
+}
+.portfolio h1{
+    width: 268px;
+    height: 54px;
+    font-size: 48px;
+    font-weight: 400;
+    margin: 0 auto;
+    color: #fff;
+
+}
+.portfolio .port_card{
+    width: 970px;
+    height: 600px;
+    padding: 50px;
+    margin: 0 auto;
+    margin-top: 50px;
+    display: flex;
+    color: #fff;
+    background: linear-gradient(130.68deg, #414141 0%, #2D2D2D 100.52%);
+    box-shadow: 0px 4px 15px rgba(27, 27, 27, 0.28);
+    border-radius: 29px;
+
+}
+
+.port_card{
+    img{
+        width: 493px;
+        height: 500px;
+    }
+
+    .port_text{
+        width: 296px;
+        height: auto;
+        margin-top: 20px;
+        margin-left: 70px;
+
+        h3{
+            width: 213px;
+            height: 29px;
+            font-size: 24px;
+            font-weight: 300;
+        }
+
+        p{
+            width: 296px;
+            height: 336px;
+            margin-top: 25px;
+            margin-bottom: 25px;
+            font-size: 18px;
+            font-weight: 300;
+        }
+
+        a{
+            width: 63px;
+            height: 21px;
+            display: flex;
+            align-items: center;
+            color: #E2A100;
+            transition: .5s ease all;
+        }
+
+        a:hover{
+            transform: scale(1.2);
+            color: #fff;
+        }
+    }
+}

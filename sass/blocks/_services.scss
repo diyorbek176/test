@@ -1,0 +1,108 @@
+.services{
+    width: 1180px;
+    height: 770px;
+    margin: 0 auto;
+    padding-top: 118px;
+    display: flex;
+    flex-direction: column;
+}
+
+.services .ser_card1{
+    width: 100%;
+    height: 270px;
+    display: flex;
+    justify-content: space-between;
+    // background-color: aqua;
+}
+
+.ser_card1 .ser_box{
+    width: 270px;
+    height: 270px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: #2A2A2A;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.47);
+    border-radius: 29px;
+
+    img{
+        width: 66px;
+        height: 66px;
+        margin-bottom: 39px;
+    }
+
+    a{
+        font-size: 24px;
+        font-weight: 300;
+        color: #fff;
+    }
+}
+
+.ser_box:nth-child(2) img{
+    width: 148px;
+    height: 54px;
+
+}
+.ser_box:nth-child(3) img{
+    width: 75px;
+    height: 75px;
+}
+.ser_box:nth-child(4) img{
+    width: 75px;
+    height: 75px;
+}
+.ser_card1 .ser_box ,
+.ser_card2 .ser_box2{
+    transition: .5s ease all;
+}
+
+.ser_card1 .ser_box:hover , 
+.ser_card2 .ser_box2:hover{
+    
+    background: #2A2A2A;
+    box-shadow: 0px 4px 6px rgba(75, 75, 75, 0.47);
+
+}
+
+.services .ser_card2{
+    width: 900px;
+    height: 270px;
+    margin: 0 auto;
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-between;
+    // background-color: aquamarine;
+}
+
+.ser_card2 .ser_box2{
+    width: 270px;
+    height: 270px;    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: #2A2A2A;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.47);
+    border-radius: 29px;
+
+    img{
+        width: 62px;
+        height: 62px;
+        margin-bottom: 74px;
+    }
+
+    a{
+        width: 104px;
+        height: 29px;
+        font-size: 24px;
+        font-weight: 300;
+        color: #fff;
+    }
+}
+
+.ser_box2:nth-child(2) img{
+    width: 75px;
+    height: 58px;
+}
+
